@@ -1,0 +1,138 @@
+.profile__image{
+  margin: 10px 0px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.profile__image img{
+  height: 70px;
+}
+
+.profile__image--name{
+  display: flex;
+  align-items: center;
+  font-size: small;
+}
+
+.profile__image sub{
+  color: gray;
+  font-size: 10px;
+}
+
+.fa-circle-check{
+  color: var(--primary-color);
+}
+
+.homework__wrapper{
+  margin-top: 20px;
+}
+
+.homework{
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  width: 270px;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: var(--border-radius-sm);
+  margin-top: 10px;
+  
+  transition: all 0.3s ease-in-out;
+  border-radius: var(--border-radius-sm);
+  box-shadow: 1rem 1rem 4rem 1rem var(--light-color);
+  -webkit-box-shadow: 1rem 1rem 4rem 1rem var(--light-color);
+}
+
+.homework:hover{
+  background-color: var(--primary-color);
+  color: var(--light-color);
+}
+
+.homework-left{
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+}
+
+.paragraph{
+  font-size: 15px;
+}
+
+.sub{
+  position: relative;
+  top: -13px;
+  font-size: 10px;
+}
+
+.homework__header{
+  margin-left: 20px;
+}
+
+/*Percentage circle*/
+.single-chart {
+    width: 36px;
+    justify-content: space-around ;
+  }
+  
+  .circle-bg {
+    fill: none;
+    stroke: #eee;
+    stroke-width: 3.8;
+  }
+  
+  .circle {
+    fill: none;
+    stroke-width: 2.8;
+    stroke-linecap: round;
+    animation: progress 1s ease-out forwards;
+  }
+  
+  @keyframes progress {
+    0% {
+      stroke-dasharray: 0 100;
+    }
+  }
+  
+  .circular-chart.violet .circle {
+    stroke: var(--primary-color);
+  }
+  
+  .percentage {
+
+    font-family: sans-serif;
+    font-size: 0.4em;
+    text-anchor: middle;
+  }
+
+  /*calender*/
+  #calendarmonthcontrols{
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .cal-btns{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .cal-week{
+    margin-right: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+  }
+
+  .cal-week span{
+    font-size: 12px;
+  }
+
+  #divcalendartable{
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+  }

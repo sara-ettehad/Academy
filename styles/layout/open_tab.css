@@ -1,0 +1,139 @@
+.newcourse__wrapper{
+    display: flex;
+    flex-direction: column;
+}
+
+.dashboard-header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.dashboard-button{
+    display: flex;
+    flex-direction: row;
+}
+
+.input{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.fa-magnifying-glass{
+    position: relative;
+    left: 30px;
+    color: gray;
+    font-size: medium;
+}
+
+.searsh{
+    border: none;
+    padding-left: 26px;
+    transition: all 0.3s ease-in-out;
+    border-radius: var(--border-radius-sm);
+    box-shadow: 1rem 1rem 4rem 1rem var(--light-color);
+    -webkit-box-shadow: 1rem 1rem 4rem 1rem var(--light-color);
+}
+
+.courses-grids{
+    display: flex;
+    flex-direction: row;
+}
+
+.courses{
+    font-size: small;
+    padding: 8px;
+    border-radius: var(--border-radius-sm);
+    margin: 20px 10px;
+}
+
+.one{
+    margin-left: 0px;
+    background-color: var(--accentlight-color);
+}
+
+.two{
+    background-color: var(--primarylight-color);
+}
+
+.three{
+    background-color: var(--bluelight-color);
+}
+
+.one img{
+    height: 105px;
+    background-color: var(--accent-color);
+    border-radius: var(--border-radius-sm);
+}
+
+.two img{
+    height: 105px;
+    background-color: var(--primary-color);
+    border-radius: var(--border-radius-sm);
+}
+
+.three img{
+    height: 105px;
+    background-color: var(--blue-color);
+    border-radius: var(--border-radius-sm);
+}
+
+.orange{
+    background-color: var(--accent-color);
+}
+
+.bluet{
+    background-color: var(--blue-color);
+}
+
+.course__button{
+    margin-top: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.peaples img{
+    height: 25px;
+}
+
+.mycourse__header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.course{
+    display: grid;
+    grid-template-columns: 3fr 1fr 1fr 1fr;
+    font-size: small;
+}
+
+.ul{
+    color: gray;
+}
+
+.course sub{
+    color: gray;
+}
+
+.course__name{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.course-header{
+    margin-left: 10px;
+}
+
+.li-first{
+    margin-top: 20px;
+}
+
+.li{
+    margin-top: 40px;
+}

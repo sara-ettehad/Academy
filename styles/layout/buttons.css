@@ -1,0 +1,104 @@
+.btn-tab{
+    width: 100%;
+    display: flex;
+    justify-items:flex-start;
+    padding: 10px 2px;
+    background: transparent;
+    color: gray;
+}
+
+.btn-tab:hover{
+    background-color: var(--primarylight-color);
+    color: var(--dark-color);
+}
+
+.btn-detail{
+    font-size: small;
+    color: var(--light-color);
+}
+
+.btn-detail:hover{
+    background: transparent;
+    color: var(--dark-color);
+}
+
+.btn-bell{
+    margin-left: 8px;
+    width: aoto;
+    padding: 5px;color: gray;
+    background: white;
+    transition: all 0.3s ease-in-out;
+    border-radius: var(--border-radius-sm);
+    box-shadow: 1rem 1rem 4rem 1rem var(--light-color);
+    -webkit-box-shadow: 1rem 1rem 4rem 1rem var(--light-color);
+}
+
+.btn-bell:hover{
+    color: var(--dark-color);
+    background-color: var(--primary-color);
+}
+
+.next-btn{
+    display: flex;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    color: var(--light-color);
+}
+
+.view-btn{
+    padding: 10px;
+    font-size: small;
+    background: transparent;
+    color: var(--primary-color);
+}
+
+.view-btn:hover{
+    color: var(--light-color);
+    background-color: var(--primary-color);
+}
+
+.course__name button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    height: 41px;
+    width: 41px;
+}
+
+.web-btn{
+    color: var(--primary-color);
+    background-color: var(--primarylight-color);
+}
+
+.develop-btn{
+    color: var(--blue-color);
+    background-color: var(--bluelight-color);
+}
+
+.data-btn{
+    color: var(--pink-color);
+    background-color: var(--pinklight-color);
+}
+
+.html-btn{
+    color: var(--primary-color);
+    background-color: var(--primarylight-color);
+}
+
+.java-btn{
+    color: var(--accent-color);
+    background-color: var(--accentlight-color);
+}
+
+.cal-btn{
+    background-color: transparent;
+    width: auto;
+    padding: 5px;
+    margin: 0px 3px;
+}
+.cal-btn:hover{
+    background-color: var(--primary-color);
+    color: var(--light-color);
+}
