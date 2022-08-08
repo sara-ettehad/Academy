@@ -259,6 +259,7 @@
         
                     </div>
                 </section>
+                
         
                 <section id="profile">
                     <div class="container">
@@ -278,42 +279,32 @@
                                 <sub>Elementry</sub>
                             </div>
 
-                            <div class="divcalendar">
+                            <div id="v-cal">
 
-                                <div class="divcalendar">
-
-                                    <div id="calendaroverallcontrols">
-                                      <!-- <div id="year"></div> -->
-                                    
-                                      <div id="calendarmonthcontrols">
-                                        
-                                        <div id="monthandyear"></div>
-                                    
-
-                                        <div class="cal-btns">
-                                            <button class="btn btn-primary cal-btn" id="btnPrev" href="#" title="Previous Month"><i class="fa-solid fa-angle-left"></i></button>
-
-                                    
-                                        <!-- <input type="button" src="images/btnprevmonth.png" alt="Submit" id="btnPrev"/>-->
-                                    
-                                        <!-- <div id="month"></div>-->
-                                    
-                                    
-                                        <!--<input type="button" src="images/btnnextmonth.png" alt="Submit" id="btnNext"/>-->
-                                    
-                                        <button class="btn btn-primary cal-btn" id="btnNext" href="#" title="Next Month"><i class="fa-solid fa-angle-right"></i></button>
-                                        </div>
-
-                                    
-                                      </div>
+                                <div class="val-header">
+                                    <button class="vcal-btn" data-calendar-toggle="previous">
+                                        <i class="fa-solid fa-arrow-left"></i>
+                                    </button>
+                                    <div class="vcal-header__label" data-calendar-label="month">
+                                        March 2017
                                     </div>
-                                    
-                                    <div id="divcalendartable"></div>
-                                    <a id="btnPrevYr" href="#" title="Previous Year"><span></span></a>
+                                    <button class="vcal-btn" data-calendar-toggle="next">
+                                        <i class="fa-solid fa-arrow-right"></i>
+                                    </button>
+                                </div>
 
-                        
+                                <div class="vcal-week">
+                                    <span>Mon</span>
+                                    <span>Tue</span>
+                                    <span>Wed</span>
+                                    <span>Thu</span>
+                                    <span>Fri</span>
+                                    <span>Sat</span>
+                                    <span>Sun</span>
+                                </div>
+
+                                <div class="vcal-body" data-calendar-area="month"></div>
                                 
-            
                             </div>
             
                             <div class="homework__wrapper">
