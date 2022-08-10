@@ -110,8 +110,8 @@ a{
 
 /* BEM */   
 
-.primary__btn:hover{
+.btn-primary:hover{
     background-color: transparent;
-    border:none;
-    font-size: var(--font-size-2xl);
+    border: 1px solid var(--primary-color);
+    color: #0c121a;
 }

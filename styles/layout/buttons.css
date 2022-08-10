@@ -10,11 +10,14 @@
 .btn-tab:hover{
     background-color: var(--primarylight-color);
     color: var(--dark-color);
+    border: none;
 }
 
 .btn-detail{
     font-size: small;
-    color: var(--light-color);
+    color: var(--light-color);    
+    border: 1px solid var(--primary-color);
+
 }
 
 .btn-detail:hover{
@@ -100,5 +103,6 @@
 }
 .cal-btn:hover{
     background-color: var(--primary-color);
+    border: 1px;
     color: var(--light-color);
 }

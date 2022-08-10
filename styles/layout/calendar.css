@@ -1,0 +1,91 @@
+.cal {
+    width: 100%;
+    max-width: 42rem;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 3px;
+    overflow: hidden;
+    box-shadow: 0 4px 22px 0 rgba(0, 0, 0, 0.05);
+    border: solid 1px #e7e9ed;
+}
+  
+.cal__header {
+    display: flex;
+    padding: 0.2rem 1.4rem;
+    align-items: center;
+    justify-content: space-between;
+}
+  
+.cal__header__label {
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+}
+  
+.cal__week {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: #E7E9ED;
+}
+  
+.cal__week span {
+    font-size: 0.5rem;
+    max-width: 14.28%;
+    padding: 0.5rem 0.2rem;
+    flex-direction: column;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+}
+  
+.cal__body {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #fafafa;
+}
+  
+.cal__date {
+    background-color: #fff;
+    font-size: 0.7rem;
+    display: flex;
+    max-width: 14.28%;
+    flex: 0 0 14.28%;
+    flex-direction: column;
+    align-items: center;
+    padding: .2rem 0;
+    border-radius: 4px;
+}
+  
+.cal__date--active:hover {
+    cursor: pointer;
+    color: #fff;
+    background-color: var(--primary-color);
+}
+  
+.cal__date--today {
+    color: #fff;
+    background-color: var(--primary-color);
+}
+  
+.cal__date--selected {
+    background-color: #E7E9ED;
+    color: #333;
+}
+  
+.cal__date--disabled {
+    opacity: 0.5;
+}
+  
+.cal__date--disabled:hover {
+    cursor: not-allowed;
+}
+  
+.demo-picked {
+    font-size: 1.2rem;
+    text-align: center;
+}
+  
+.demo-picked span {
+    font-weight: bold;
+}
