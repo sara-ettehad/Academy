@@ -282,13 +282,13 @@
                             <div id="v-cal">
 
                                 <div class="val-header">
-                                    <button class="vcal-btn" data-calendar-toggle="previous">
+                                    <button class="vcal-btn" id="previous">
                                         <i class="fa-solid fa-arrow-left"></i>
                                     </button>
-                                    <div class="vcal-header__label" data-calendar-label="month">
+                                    <div class="vcal-header__label" id="month">
                                         March 2017
                                     </div>
-                                    <button class="vcal-btn" data-calendar-toggle="next">
+                                    <button class="vcal-btn" id="next">
                                         <i class="fa-solid fa-arrow-right"></i>
                                     </button>
                                 </div>
@@ -303,8 +303,8 @@
                                     <span>Sun</span>
                                 </div>
 
-                                <div class="vcal-body" data-calendar-area="month"></div>
-                                
+                                <div class="vcal-body" id="month"></div>
+                                 
                             </div>
             
                             <div class="homework__wrapper">
@@ -405,7 +405,10 @@
 
     </main>
 
+    <script src="vanillaCalendar.js" type="text/javascript"></script>
     
+    <script> window.addEventListener('load', function () {vanillaCalendar.init();})
+    </script>
 
     <script src="./calender.js"></script>
 
