@@ -4,8 +4,8 @@ var vanillacalendar = {
     previous: document.querySelectorAll('[data-calendar-toggle="previous"]')[0],
     label: document.querySelectorAll('[data-calendar-label="month"]')[0],
     activeDates: null,
-    date: new Date('October 10, 2020'),
-    todaysDate: new Date('October 10, 2020'),
+    date: new Date('August 10, 2022'),
+    todaysDate: new Date('August 10, 2022'),
   
     init: function () {
       this.date.setDate(1)
