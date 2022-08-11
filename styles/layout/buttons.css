@@ -32,8 +32,8 @@
     background: white;
     transition: all 0.3s ease-in-out;
     border-radius: var(--border-radius-sm);
-    box-shadow: 1rem 1rem 4rem 1rem var(--light-color);
     -webkit-box-shadow: 1rem 1rem 4rem 1rem var(--light-color);
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;   
 }
 
 .btn-bell:hover{
